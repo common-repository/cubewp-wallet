@@ -1,0 +1,1130 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: cubewp-framework\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-11 23:13+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: cland <cubewp@gmail.com>\n"
+"Language-Team: CubeWP <contact@cubewp.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"POT-Revision-Date: Tue Mar 08 2016 16:05:54 GMT+0500 (Pakistan Standard Time)\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;__:1;"
+"_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;_x:1,2c;"
+"_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;"
+"esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c;"
+"comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cube/classes/class-cubewp-enqueue.php:139
+msgid "Something Went Wrong. Try Again Later."
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-ajax.php:45
+#: cube/classes/class-cubewp-wallet-ajax.php:78
+#: cube/classes/class-cubewp-wallet-ajax.php:137
+#: cube/classes/class-cubewp-wallet-ajax.php:164
+#: cube/classes/class-cubewp-wallet-ajax.php:210
+#: cube/classes/class-cubewp-wallet-ajax.php:221
+msgid "Security Verification Failed."
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-ajax.php:48
+#: cube/classes/class-cubewp-wallet-ajax.php:81
+#: cube/classes/class-cubewp-wallet-ajax.php:140
+#: cube/classes/class-cubewp-wallet-ajax.php:167
+#: cube/classes/class-cubewp-wallet-ajax.php:213
+#: cube/classes/class-cubewp-wallet-ajax.php:224
+msgid "Authentication Failed."
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-ajax.php:58
+msgid "User Message"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-ajax.php:64
+msgid "User Payout Details"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-ajax.php:73
+#: cube/classes/class-cubewp-wallet-ajax.php:132
+msgid "Something went wrong."
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-ajax.php:99
+#: cube/classes/class-cubewp-wallet-transactions-list-table.php:227
+#: cube/templates/cubewp-wallet-transactions.php:25
+msgid "Customer"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-ajax.php:106
+#: cube/classes/class-cubewp-wallet-transactions-list-table.php:226
+msgid "Vendor"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-ajax.php:113
+#: cube/templates/cubewp-wallet-transactions.php:24
+msgid "Post"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-ajax.php:120
+msgid "Order#"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-ajax.php:125
+msgid "Details"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-ajax.php:159
+msgid "Payout Methods Successfully Saved."
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-ajax.php:186
+msgid "Something went wrong with payout method. Please try again later."
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-ajax.php:193
+msgid "You have insufficient balance for this request."
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-ajax.php:196
+#, php-format
+msgid "Amount must be greater or equals to %s"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-ajax.php:199
+#, php-format
+msgid "Amount must be less or equals to %s"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-ajax.php:203
+msgid "Request submitted successfully and currently pending for approval."
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-ajax.php:205
+msgid "Something went wrong. Please try again later."
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-config.php:45
+#: cube/classes/class-cubewp-wallet-config.php:65
+#: cube/classes/class-cubewp-wallet-transactions.php:67 cubewp-wallet.php:43
+msgid "CubeWP Wallet"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-config.php:53
+msgid "Withdrawals"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-config.php:55
+#, php-format
+msgid "Withdrawals %s"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-config.php:58
+msgid "Disputes"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-config.php:60
+#, php-format
+msgid "Disputes %s"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-config.php:143
+msgid "Wallet"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-config.php:150
+msgid "Currency"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-config.php:152
+msgid ""
+"Choose the currency for CubeWP Wallet, By default Woocommerce Setting will be "
+"used."
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-config.php:157
+#: cube/classes/class-cubewp-wallet-transactions-list-table.php:229
+#: cube/classes/class-cubewp-wallet-transactions.php:118
+msgid "Commission"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-config.php:159
+msgid "Want to take commission on vendor's payment? Turn this option on."
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-config.php:164
+msgid "Commission Type"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-config.php:165
+msgid "Please select the type of commission you want."
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-config.php:167
+msgid "Percentage"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-config.php:168
+msgid "Fixed"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-config.php:177
+msgid "Commission Value"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-config.php:178
+msgid "Please enter the commission value, Percentage or Fixed."
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-config.php:188
+msgid "Hold Payments"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-config.php:190
+msgid "Want to hold vendor's payment? Turn this option on."
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-config.php:194
+msgid "Hold Payments Period"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-config.php:195
+msgid ""
+"Please enter the number of days you want to hold vendor's payment. After this "
+"period fund will be added to vendor's wallet automatically."
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-config.php:204
+msgid "Minimum Payout"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-config.php:205
+msgid "Please Enter the minimum amount for withdrawal."
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-config.php:211
+msgid "Maximum Payout"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-config.php:212
+msgid "Please Enter the maximum amount for withdrawal."
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-disputes-list-table.php:50
+#: cube/classes/class-cubewp-wallet-withdrawals-list-table.php:50
+msgid "View Details"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-disputes-list-table.php:53
+#: cube/classes/class-cubewp-wallet-withdrawals-list-table.php:53
+msgid "Approve"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-disputes-list-table.php:54
+#: cube/classes/class-cubewp-wallet-withdrawals-list-table.php:54
+msgid "Reject"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-disputes-list-table.php:56
+#: cube/classes/class-cubewp-wallet-transactions-list-table.php:58
+#: cube/classes/class-cubewp-wallet-withdrawals-list-table.php:56
+msgid "Delete"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-disputes-list-table.php:64
+#: cube/classes/class-cubewp-wallet-transactions-list-table.php:69
+#: cube/classes/class-cubewp-wallet-transactions-list-table.php:79
+#: cube/classes/class-cubewp-wallet-withdrawals-list-table.php:64
+msgid "User not found"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-disputes-list-table.php:182
+#: cube/classes/class-cubewp-wallet-withdrawals-list-table.php:188
+msgid "Request #"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-disputes-list-table.php:183
+msgid "Transaction #"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-disputes-list-table.php:184
+#: cube/classes/class-cubewp-wallet-withdrawals-list-table.php:189
+msgid "Request By"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-disputes-list-table.php:185
+#: cube/classes/class-cubewp-wallet-transactions-list-table.php:231
+#: cube/classes/class-cubewp-wallet-withdrawals-list-table.php:191
+#: cube/templates/cubewp-wallet-transactions.php:29
+msgid "Status"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-disputes-list-table.php:186
+#: cube/classes/class-cubewp-wallet-transactions-list-table.php:232
+#: cube/classes/class-cubewp-wallet-withdrawals-list-table.php:192
+msgid "Created At"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-disputes.php:84
+msgid "Dispute Requests"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-transactions-list-table.php:61
+msgid "Approve Now"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-transactions-list-table.php:225
+msgid "Record #"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-transactions-list-table.php:228
+#: cube/classes/class-cubewp-wallet-withdrawals-list-table.php:190
+#: cube/templates/cubewp-wallet-transactions.php:26
+msgid "Amount"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-transactions-list-table.php:230
+msgid "Total"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-transactions.php:85
+#: cube/templates/cubewp-wallet.php:50
+msgid "Available Balance"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-transactions.php:99
+msgid "On-Hold Balance"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-transactions.php:134
+#: cube/templates/cubewp-wallet.php:82
+msgid "Total Withdrawn"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-transactions.php:149
+msgid "Lifetime Balance"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-withdrawals-processor.php:52
+msgid "Withdrawal request's"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-withdrawals-processor.php:53
+msgid "You have pending request in the wallet current waiting for approval."
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-withdrawals-processor.php:54
+msgid "View Withdrawal Request's"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-withdrawals-processor.php:56
+msgid "Pending Wallet Requests"
+msgstr ""
+
+#: cube/classes/class-cubewp-wallet-withdrawals.php:43
+msgid "Withdrawal Requests"
+msgstr ""
+
+#: cube/helpers/functions.php:37
+msgid "United Arab Emirates dirham"
+msgstr ""
+
+#: cube/helpers/functions.php:38
+msgid "Afghan afghani"
+msgstr ""
+
+#: cube/helpers/functions.php:39
+msgid "Albanian lek"
+msgstr ""
+
+#: cube/helpers/functions.php:40
+msgid "Armenian dram"
+msgstr ""
+
+#: cube/helpers/functions.php:41
+msgid "Netherlands Antillean guilder"
+msgstr ""
+
+#: cube/helpers/functions.php:42
+msgid "Angolan kwanza"
+msgstr ""
+
+#: cube/helpers/functions.php:43
+msgid "Argentine peso"
+msgstr ""
+
+#: cube/helpers/functions.php:44
+msgid "Australian dollar"
+msgstr ""
+
+#: cube/helpers/functions.php:45
+msgid "Aruban florin"
+msgstr ""
+
+#: cube/helpers/functions.php:46
+msgid "Azerbaijani manat"
+msgstr ""
+
+#: cube/helpers/functions.php:47
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr ""
+
+#: cube/helpers/functions.php:48
+msgid "Barbadian dollar"
+msgstr ""
+
+#: cube/helpers/functions.php:49
+msgid "Bangladeshi taka"
+msgstr ""
+
+#: cube/helpers/functions.php:50
+msgid "Bulgarian lev"
+msgstr ""
+
+#: cube/helpers/functions.php:51
+msgid "Bahraini dinar"
+msgstr ""
+
+#: cube/helpers/functions.php:52
+msgid "Burundian franc"
+msgstr ""
+
+#: cube/helpers/functions.php:53
+msgid "Bermudian dollar"
+msgstr ""
+
+#: cube/helpers/functions.php:54
+msgid "Brunei dollar"
+msgstr ""
+
+#: cube/helpers/functions.php:55
+msgid "Bolivian boliviano"
+msgstr ""
+
+#: cube/helpers/functions.php:56
+msgid "Brazilian real"
+msgstr ""
+
+#: cube/helpers/functions.php:57
+msgid "Bahamian dollar"
+msgstr ""
+
+#: cube/helpers/functions.php:58
+msgid "Bitcoin"
+msgstr ""
+
+#: cube/helpers/functions.php:59
+msgid "Bhutanese ngultrum"
+msgstr ""
+
+#: cube/helpers/functions.php:60
+msgid "Botswana pula"
+msgstr ""
+
+#: cube/helpers/functions.php:61
+msgid "Belarusian ruble (old)"
+msgstr ""
+
+#: cube/helpers/functions.php:62
+msgid "Belarusian ruble"
+msgstr ""
+
+#: cube/helpers/functions.php:63
+msgid "Belize dollar"
+msgstr ""
+
+#: cube/helpers/functions.php:64
+msgid "Canadian dollar"
+msgstr ""
+
+#: cube/helpers/functions.php:65
+msgid "Congolese franc"
+msgstr ""
+
+#: cube/helpers/functions.php:66
+msgid "Swiss franc"
+msgstr ""
+
+#: cube/helpers/functions.php:67
+msgid "Chilean peso"
+msgstr ""
+
+#: cube/helpers/functions.php:68
+msgid "Chinese yuan"
+msgstr ""
+
+#: cube/helpers/functions.php:69
+msgid "Colombian peso"
+msgstr ""
+
+#: cube/helpers/functions.php:70
+msgid "Costa Rican col&oacute;n"
+msgstr ""
+
+#: cube/helpers/functions.php:71
+msgid "Cuban convertible peso"
+msgstr ""
+
+#: cube/helpers/functions.php:72
+msgid "Cuban peso"
+msgstr ""
+
+#: cube/helpers/functions.php:73
+msgid "Cape Verdean escudo"
+msgstr ""
+
+#: cube/helpers/functions.php:74
+msgid "Czech koruna"
+msgstr ""
+
+#: cube/helpers/functions.php:75
+msgid "Djiboutian franc"
+msgstr ""
+
+#: cube/helpers/functions.php:76
+msgid "Danish krone"
+msgstr ""
+
+#: cube/helpers/functions.php:77
+msgid "Dominican peso"
+msgstr ""
+
+#: cube/helpers/functions.php:78
+msgid "Algerian dinar"
+msgstr ""
+
+#: cube/helpers/functions.php:79
+msgid "Egyptian pound"
+msgstr ""
+
+#: cube/helpers/functions.php:80
+msgid "Eritrean nakfa"
+msgstr ""
+
+#: cube/helpers/functions.php:81
+msgid "Ethiopian birr"
+msgstr ""
+
+#: cube/helpers/functions.php:82
+msgid "Euro"
+msgstr ""
+
+#: cube/helpers/functions.php:83
+msgid "Fijian dollar"
+msgstr ""
+
+#: cube/helpers/functions.php:84
+msgid "Falkland Islands pound"
+msgstr ""
+
+#: cube/helpers/functions.php:85
+msgid "Pound sterling"
+msgstr ""
+
+#: cube/helpers/functions.php:86
+msgid "Georgian lari"
+msgstr ""
+
+#: cube/helpers/functions.php:87
+msgid "Guernsey pound"
+msgstr ""
+
+#: cube/helpers/functions.php:88
+msgid "Ghana cedi"
+msgstr ""
+
+#: cube/helpers/functions.php:89
+msgid "Gibraltar pound"
+msgstr ""
+
+#: cube/helpers/functions.php:90
+msgid "Gambian dalasi"
+msgstr ""
+
+#: cube/helpers/functions.php:91
+msgid "Guinean franc"
+msgstr ""
+
+#: cube/helpers/functions.php:92
+msgid "Guatemalan quetzal"
+msgstr ""
+
+#: cube/helpers/functions.php:93
+msgid "Guyanese dollar"
+msgstr ""
+
+#: cube/helpers/functions.php:94
+msgid "Hong Kong dollar"
+msgstr ""
+
+#: cube/helpers/functions.php:95
+msgid "Honduran lempira"
+msgstr ""
+
+#: cube/helpers/functions.php:96
+msgid "Croatian kuna"
+msgstr ""
+
+#: cube/helpers/functions.php:97
+msgid "Haitian gourde"
+msgstr ""
+
+#: cube/helpers/functions.php:98
+msgid "Hungarian forint"
+msgstr ""
+
+#: cube/helpers/functions.php:99
+msgid "Indonesian rupiah"
+msgstr ""
+
+#: cube/helpers/functions.php:100
+msgid "Israeli new shekel"
+msgstr ""
+
+#: cube/helpers/functions.php:101
+msgid "Manx pound"
+msgstr ""
+
+#: cube/helpers/functions.php:102
+msgid "Indian rupee"
+msgstr ""
+
+#: cube/helpers/functions.php:103
+msgid "Iraqi dinar"
+msgstr ""
+
+#: cube/helpers/functions.php:104
+msgid "Iranian rial"
+msgstr ""
+
+#: cube/helpers/functions.php:105
+msgid "Iranian toman"
+msgstr ""
+
+#: cube/helpers/functions.php:106
+msgid "Icelandic kr&oacute;na"
+msgstr ""
+
+#: cube/helpers/functions.php:107
+msgid "Jersey pound"
+msgstr ""
+
+#: cube/helpers/functions.php:108
+msgid "Jamaican dollar"
+msgstr ""
+
+#: cube/helpers/functions.php:109
+msgid "Jordanian dinar"
+msgstr ""
+
+#: cube/helpers/functions.php:110
+msgid "Japanese yen"
+msgstr ""
+
+#: cube/helpers/functions.php:111
+msgid "Kenyan shilling"
+msgstr ""
+
+#: cube/helpers/functions.php:112
+msgid "Kyrgyzstani som"
+msgstr ""
+
+#: cube/helpers/functions.php:113
+msgid "Cambodian riel"
+msgstr ""
+
+#: cube/helpers/functions.php:114
+msgid "Comorian franc"
+msgstr ""
+
+#: cube/helpers/functions.php:115
+msgid "North Korean won"
+msgstr ""
+
+#: cube/helpers/functions.php:116
+msgid "South Korean won"
+msgstr ""
+
+#: cube/helpers/functions.php:117
+msgid "Kuwaiti dinar"
+msgstr ""
+
+#: cube/helpers/functions.php:118
+msgid "Cayman Islands dollar"
+msgstr ""
+
+#: cube/helpers/functions.php:119
+msgid "Kazakhstani tenge"
+msgstr ""
+
+#: cube/helpers/functions.php:120
+msgid "Lao kip"
+msgstr ""
+
+#: cube/helpers/functions.php:121
+msgid "Lebanese pound"
+msgstr ""
+
+#: cube/helpers/functions.php:122
+msgid "Sri Lankan rupee"
+msgstr ""
+
+#: cube/helpers/functions.php:123
+msgid "Liberian dollar"
+msgstr ""
+
+#: cube/helpers/functions.php:124
+msgid "Lesotho loti"
+msgstr ""
+
+#: cube/helpers/functions.php:125
+msgid "Libyan dinar"
+msgstr ""
+
+#: cube/helpers/functions.php:126
+msgid "Moroccan dirham"
+msgstr ""
+
+#: cube/helpers/functions.php:127
+msgid "Moldovan leu"
+msgstr ""
+
+#: cube/helpers/functions.php:128
+msgid "Malagasy ariary"
+msgstr ""
+
+#: cube/helpers/functions.php:129
+msgid "Macedonian denar"
+msgstr ""
+
+#: cube/helpers/functions.php:130
+msgid "Burmese kyat"
+msgstr ""
+
+#: cube/helpers/functions.php:131
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr ""
+
+#: cube/helpers/functions.php:132
+msgid "Macanese pataca"
+msgstr ""
+
+#: cube/helpers/functions.php:133
+msgid "Mauritanian ouguiya"
+msgstr ""
+
+#: cube/helpers/functions.php:134
+msgid "Mauritian rupee"
+msgstr ""
+
+#: cube/helpers/functions.php:135
+msgid "Maldivian rufiyaa"
+msgstr ""
+
+#: cube/helpers/functions.php:136
+msgid "Malawian kwacha"
+msgstr ""
+
+#: cube/helpers/functions.php:137
+msgid "Mexican peso"
+msgstr ""
+
+#: cube/helpers/functions.php:138
+msgid "Malaysian ringgit"
+msgstr ""
+
+#: cube/helpers/functions.php:139
+msgid "Mozambican metical"
+msgstr ""
+
+#: cube/helpers/functions.php:140
+msgid "Namibian dollar"
+msgstr ""
+
+#: cube/helpers/functions.php:141
+msgid "Nigerian naira"
+msgstr ""
+
+#: cube/helpers/functions.php:142
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr ""
+
+#: cube/helpers/functions.php:143
+msgid "Norwegian krone"
+msgstr ""
+
+#: cube/helpers/functions.php:144
+msgid "Nepalese rupee"
+msgstr ""
+
+#: cube/helpers/functions.php:145
+msgid "New Zealand dollar"
+msgstr ""
+
+#: cube/helpers/functions.php:146
+msgid "Omani rial"
+msgstr ""
+
+#: cube/helpers/functions.php:147
+msgid "Panamanian balboa"
+msgstr ""
+
+#: cube/helpers/functions.php:148
+msgid "Sol"
+msgstr ""
+
+#: cube/helpers/functions.php:149
+msgid "Papua New Guinean kina"
+msgstr ""
+
+#: cube/helpers/functions.php:150
+msgid "Philippine peso"
+msgstr ""
+
+#: cube/helpers/functions.php:151
+msgid "Pakistani rupee"
+msgstr ""
+
+#: cube/helpers/functions.php:152
+msgid "Polish z&#x142;oty"
+msgstr ""
+
+#: cube/helpers/functions.php:153
+msgid "Transnistrian ruble"
+msgstr ""
+
+#: cube/helpers/functions.php:154
+msgid "Paraguayan guaran&iacute;"
+msgstr ""
+
+#: cube/helpers/functions.php:155
+msgid "Qatari riyal"
+msgstr ""
+
+#: cube/helpers/functions.php:156
+msgid "Romanian leu"
+msgstr ""
+
+#: cube/helpers/functions.php:157
+msgid "Serbian dinar"
+msgstr ""
+
+#: cube/helpers/functions.php:158
+msgid "Russian ruble"
+msgstr ""
+
+#: cube/helpers/functions.php:159
+msgid "Rwandan franc"
+msgstr ""
+
+#: cube/helpers/functions.php:160
+msgid "Saudi riyal"
+msgstr ""
+
+#: cube/helpers/functions.php:161
+msgid "Solomon Islands dollar"
+msgstr ""
+
+#: cube/helpers/functions.php:162
+msgid "Seychellois rupee"
+msgstr ""
+
+#: cube/helpers/functions.php:163
+msgid "Sudanese pound"
+msgstr ""
+
+#: cube/helpers/functions.php:164
+msgid "Swedish krona"
+msgstr ""
+
+#: cube/helpers/functions.php:165
+msgid "Singapore dollar"
+msgstr ""
+
+#: cube/helpers/functions.php:166
+msgid "Saint Helena pound"
+msgstr ""
+
+#: cube/helpers/functions.php:167
+msgid "Sierra Leonean leone"
+msgstr ""
+
+#: cube/helpers/functions.php:168
+msgid "Somali shilling"
+msgstr ""
+
+#: cube/helpers/functions.php:169
+msgid "Surinamese dollar"
+msgstr ""
+
+#: cube/helpers/functions.php:170
+msgid "South Sudanese pound"
+msgstr ""
+
+#: cube/helpers/functions.php:171
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr ""
+
+#: cube/helpers/functions.php:172
+msgid "Syrian pound"
+msgstr ""
+
+#: cube/helpers/functions.php:173
+msgid "Swazi lilangeni"
+msgstr ""
+
+#: cube/helpers/functions.php:174
+msgid "Thai baht"
+msgstr ""
+
+#: cube/helpers/functions.php:175
+msgid "Tajikistani somoni"
+msgstr ""
+
+#: cube/helpers/functions.php:176
+msgid "Turkmenistan manat"
+msgstr ""
+
+#: cube/helpers/functions.php:177
+msgid "Tunisian dinar"
+msgstr ""
+
+#: cube/helpers/functions.php:178
+msgid "Tongan pa&#x2bb;anga"
+msgstr ""
+
+#: cube/helpers/functions.php:179
+msgid "Turkish lira"
+msgstr ""
+
+#: cube/helpers/functions.php:180
+msgid "Trinidad and Tobago dollar"
+msgstr ""
+
+#: cube/helpers/functions.php:181
+msgid "New Taiwan dollar"
+msgstr ""
+
+#: cube/helpers/functions.php:182
+msgid "Tanzanian shilling"
+msgstr ""
+
+#: cube/helpers/functions.php:183
+msgid "Ukrainian hryvnia"
+msgstr ""
+
+#: cube/helpers/functions.php:184
+msgid "Ugandan shilling"
+msgstr ""
+
+#: cube/helpers/functions.php:185
+msgid "United States (US) dollar"
+msgstr ""
+
+#: cube/helpers/functions.php:186
+msgid "Uruguayan peso"
+msgstr ""
+
+#: cube/helpers/functions.php:187
+msgid "Uzbekistani som"
+msgstr ""
+
+#: cube/helpers/functions.php:188
+msgid "Venezuelan bol&iacute;var"
+msgstr ""
+
+#: cube/helpers/functions.php:189
+msgid "Bol&iacute;var soberano"
+msgstr ""
+
+#: cube/helpers/functions.php:190
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr ""
+
+#: cube/helpers/functions.php:191
+msgid "Vanuatu vatu"
+msgstr ""
+
+#: cube/helpers/functions.php:192
+msgid "Samoan t&#x101;l&#x101;"
+msgstr ""
+
+#: cube/helpers/functions.php:193
+msgid "Central African CFA franc"
+msgstr ""
+
+#: cube/helpers/functions.php:194
+msgid "East Caribbean dollar"
+msgstr ""
+
+#: cube/helpers/functions.php:195
+msgid "West African CFA franc"
+msgstr ""
+
+#: cube/helpers/functions.php:196
+msgid "CFP franc"
+msgstr ""
+
+#: cube/helpers/functions.php:197
+msgid "Yemeni rial"
+msgstr ""
+
+#: cube/helpers/functions.php:198
+msgid "South African rand"
+msgstr ""
+
+#: cube/helpers/functions.php:199
+msgid "Zambian kwacha"
+msgstr ""
+
+#: cube/templates/cubewp-wallet-transactions.php:27
+msgid "Web Fee"
+msgstr ""
+
+#: cube/templates/cubewp-wallet-transactions.php:28
+msgid "Total Received"
+msgstr ""
+
+#: cube/templates/cubewp-wallet-transactions.php:30
+#: cube/templates/cubewp-wallet-withdrawals.php:58
+msgid "Date"
+msgstr ""
+
+#: cube/templates/cubewp-wallet-transactions.php:45
+msgid "N/A"
+msgstr ""
+
+#: cube/templates/cubewp-wallet-transactions.php:64
+msgid "No Transaction Found."
+msgstr ""
+
+#: cube/templates/cubewp-wallet-withdrawals.php:42
+msgid "Requested Amount"
+msgstr ""
+
+#: cube/templates/cubewp-wallet-withdrawals.php:43
+#, php-format
+msgid "%s/-"
+msgstr ""
+
+#: cube/templates/cubewp-wallet-withdrawals.php:54
+msgid "Payout"
+msgstr ""
+
+#: cube/templates/cubewp-wallet-withdrawals.php:67
+msgid "No Withdrawal Request Found"
+msgstr ""
+
+#: cube/templates/cubewp-wallet.php:17
+msgid "You must be logged-in to access the wallet."
+msgstr ""
+
+#: cube/templates/cubewp-wallet.php:59
+msgid "Withdraw"
+msgstr ""
+
+#: cube/templates/cubewp-wallet.php:71
+msgid "On Hold"
+msgstr ""
+
+#: cube/templates/cubewp-wallet.php:93
+msgid "Lifetime Earnings"
+msgstr ""
+
+#: cube/templates/cubewp-wallet.php:98
+msgid "Transactions"
+msgstr ""
+
+#: cube/templates/cubewp-wallet.php:99
+msgid "Your recent wallet transactions history."
+msgstr ""
+
+#: cube/templates/cubewp-wallet.php:112
+msgid "Payout Setting"
+msgstr ""
+
+#: cube/templates/cubewp-wallet.php:113
+msgid "Change Your Payout Method From Here."
+msgstr ""
+
+#: cube/templates/cubewp-wallet.php:114
+msgid "Change"
+msgstr ""
+
+#: cube/templates/cubewp-wallet.php:120
+msgid "Recent Withdrawals"
+msgstr ""
+
+#: cube/templates/cubewp-wallet.php:136
+msgid "Payout Method *"
+msgstr ""
+
+#: cube/templates/cubewp-wallet.php:138
+msgid "Select Payout Method"
+msgstr ""
+
+#: cube/templates/cubewp-wallet.php:149
+#, php-format
+msgid "%sChange / Add New%s"
+msgstr ""
+
+#: cube/templates/cubewp-wallet.php:152
+msgid "Withdrawal Amount *"
+msgstr ""
+
+#: cube/templates/cubewp-wallet.php:154
+#, php-format
+msgid "Must be a numeric value without any currency sign and between %s to %s"
+msgstr ""
+
+#: cube/templates/cubewp-wallet.php:157
+msgid "Additional Note."
+msgstr ""
+
+#: cube/templates/cubewp-wallet.php:160
+msgid "Send Request"
+msgstr ""
+
+#: cube/templates/cubewp-wallet.php:195 cube/templates/cubewp-wallet.php:217
+msgid "Account Details *"
+msgstr ""
+
+#: cube/templates/cubewp-wallet.php:196 cube/templates/cubewp-wallet.php:218
+msgid "EG: Account Title, Account Number and etc."
+msgstr ""
+
+#: cube/templates/cubewp-wallet.php:197 cube/templates/cubewp-wallet.php:219
+msgid ""
+"Please enter all the necessary details so you do no face and disruption in "
+"receiving funds."
+msgstr ""
+
+#: cube/templates/cubewp-wallet.php:203
+msgid "Add New Method"
+msgstr ""
+
+#: cube/templates/cubewp-wallet.php:213
+msgid "Account Type *"
+msgstr ""
+
+#: cube/templates/cubewp-wallet.php:214
+msgid "EG: Paypal, Stripe, Payoneer and etc."
+msgstr ""
+
+#: cube/templates/cubewp-wallet.php:223
+msgid "Save Changes"
+msgstr ""
+
+#: cubewp-wallet.php:44
+#, php-format
+msgid "%sCubeWP Framework%s is required to run CubeWP Wallet."
+msgstr ""

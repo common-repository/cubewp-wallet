@@ -1,0 +1,240 @@
+/**
+Wallet Transactions
+*/
+
+.cube-earning-grids {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    box-sizing: border-box;
+}
+
+.cube-earning-grids * {
+    box-sizing: border-box;
+}
+
+.cwp-payment-balance-grids {
+    padding: 25px;
+    box-shadow: -2px 3px 20px 1px #00000024;
+    border-radius: 12px;
+    margin: 20px 0 10px 0;
+    width: calc((100% / 5) - 15px);
+}
+
+.payment-balance {
+    background: #156CD2 0 0 no-repeat padding-box;
+}
+
+.cwp-payment-balance-grids .cwp-payment-cards-earnings h3 {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 500;
+    margin: 15px 0;
+    line-height: 32px;
+}
+
+.cwp-payment-balance-grids .cwp-payment-cards-earnings h3,
+.cwp-payment-balance-grids .cwp-payment-cards-title h4 {
+    color: #262626;
+}
+
+.cwp-payment-balance-grids.payment-balance .cwp-payment-cards-earnings h3 {
+    color: #fff;
+}
+
+.cwp-payment-balance-grids.payment-balance .cwp-payment-cards-title h4 {
+    color: #fff;
+    margin: 0;
+}
+
+.cwp-payment-balance-grids .cwp-payment-cards-title h4 {
+    text-align: left;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 18px 0 0 0;
+    line-height: 13px;
+    opacity: 0.8;
+}
+
+.cwp-payment-balance-grids.payment-hold .cwp-payment-icon {
+    background: #29DC5F 0 0 no-repeat padding-box;
+}
+
+.cwp-payment-icon svg {
+    fill: #fff;
+}
+
+.cwp-payment-balance-grids.payment-Withdraw .cwp-payment-icon {
+    background: #A538D3 0 0 no-repeat padding-box;
+}
+
+.cwp-payment-icon {
+    background: #156cd2;
+    padding: 0;
+    border-radius: 8px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-balance .cwp-payment-icon {
+    background: #ffffff57;
+}
+
+.cwp-payment-balance-grids .cwp-payment-withdraw-button .payment-withdraw svg {
+    width: 14px;
+    height: auto;
+    margin-right: 6px;
+}
+
+/**
+Wallet Transactions End
+*/
+
+/**
+Wallet Withdrawals
+*/
+
+.cubewp-admin-modal {
+    position: fixed;
+    width: calc(100vw - 160px);
+    height: 100vh;
+    top: 0;
+    right: 0;
+    overflow: auto;
+    backdrop-filter: blur(2px);
+    z-index: 99;
+    display: none;
+}
+.cubewp-admin-modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    min-width: 300px;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+.cubewp-admin-modal-close {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 22px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    text-shadow: 2px 2px 1px #ddd;
+    z-index: 99999;
+}
+
+.cubewp-wallet-withdrawal-modal-content.cubewp-processing-ajax {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cubewp-wallet-withdrawal-modal-content.cubewp-processing-ajax:before {
+    content: "\f463";
+    animation: rotation 2s infinite linear;
+    display: inline-block;
+    font: normal 20px/1 dashicons;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: top;
+    color: #000;
+}
+
+.cubewp-wallet-withdrawal-modal-content {
+    min-width: 400px;
+}
+
+.cubewp-wallet-withdrawal-modal-content h2 {
+    margin: 0 0 10px 0;
+}
+
+.cubewp-wallet-withdrawal-modal-content .cubewp-wallet-code-appearance {
+    width: 100%;
+    padding: 10px 15px;
+    background: #f5f5f5;
+    border-radius: 12px;
+    box-sizing: border-box;
+    margin: 0 0 20px 0;
+}
+
+.cubewp-wallet-withdrawal-modal-content .cubewp-wallet-code-appearance h4 {
+    margin: 0 0 5px 0;
+}
+
+.cubewp-wallet-withdrawal-modal-content .cubewp-wallet-code-appearance pre {
+    margin: 0 0 0 0;
+}
+
+.cubewp-wallet-withdrawal-modal-content .cubewp-wallet-code-appearance:last-child {
+    margin: 0 0 0 0;
+}
+
+/**
+Wallet Withdrawals End
+*/
+
+
+/**
+Wallet Disputes
+*/
+
+
+
+.cubewp-wallet-dispute-modal-content.cubewp-processing-ajax {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cubewp-wallet-dispute-modal-content.cubewp-processing-ajax:before {
+    content: "\f463";
+    animation: rotation 2s infinite linear;
+    display: inline-block;
+    font: normal 20px/1 dashicons;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: top;
+    color: #000;
+}
+
+.cubewp-wallet-dispute-modal-content {
+    min-width: 400px;
+}
+
+.cubewp-wallet-dispute-modal-content h2 {
+    margin: 0 0 10px 0;
+}
+
+.cubewp-wallet-dispute-modal-content .cubewp-wallet-code-appearance {
+    width: 100%;
+    padding: 10px 15px;
+    background: #f5f5f5;
+    border-radius: 12px;
+    box-sizing: border-box;
+    margin: 0 0 20px 0;
+}
+
+.cubewp-wallet-dispute-modal-content .cubewp-wallet-code-appearance h4 {
+    margin: 0 0 5px 0;
+}
+
+.cubewp-wallet-dispute-modal-content .cubewp-wallet-code-appearance pre {
+    margin: 0 0 0 0;
+}
+
+.cubewp-wallet-dispute-modal-content .cubewp-wallet-code-appearance:last-child {
+    margin: 0 0 0 0;
+}
+
+/**
+Wallet Disputes End
+*/
